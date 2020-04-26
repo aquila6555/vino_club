@@ -59,7 +59,9 @@ a:hover{
 
 .main-nav {
     width: 100%;
-
+display: flex;
+align-items: center;
+flex-direction: column;
     justify-content: space-around;
 
     border-radius: 0.5em;
@@ -111,7 +113,8 @@ flex-flow: wrap;
     align-items: center;
     background-image: url(../img/8.jpg);
     color: #ffffff;
-    padding: 2%;
+      
+    padding: 2em;
 }
 .n{
   background-color: rgba(255, 255, 255, 0.493);
@@ -169,7 +172,8 @@ border-radius: 0.5em;
 	.header,
 	.main-nav {
 		display: flex;
-		justify-content: center;
+        justify-content: center;
+        flex-direction: row;
         align-items: center;
         width: 100%;
 
@@ -185,7 +189,8 @@ justify-content: center;
 		margin: 0 auto;
 		max-width: 1150px;
 	}
-	}
+    }
+ 
 
 }
 
@@ -196,3 +201,19 @@ justify-content: center;
 	}
 
 }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .news{
+       
+        flex-direction: column;
+    
+    }
+    .news a{
+        width: 80%;
+padding-top: 1em;
+    }
+    .footer h4{
+        padding-bottom: 1em;
+    }
+    
+  }
