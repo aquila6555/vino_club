@@ -214,6 +214,14 @@ padding-top: 1em;
     }
     .footer h4{
         padding-bottom: 1em;
+        
+    }
+    .main-nav a {
+        
+     font-size: 20px;
+    }
+    .footer img{
+width: 80%;
     }
     
   }
