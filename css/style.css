@@ -6,6 +6,7 @@
 font-family: 'MedievalSharp', cursive;
     list-style: none;
         font-style: normal;
+        
 }
 
 body {
@@ -99,7 +100,10 @@ ul{
     width: 100%;
     margin-bottom: 3em;
     margin-top: 1em;
+
+
 }
+
 .portada img{
        width: 100%; 
 }
@@ -107,7 +111,7 @@ ul{
     width: 100%;
     display: flex;
     flex-direction: row;
-
+border-radius: 1em;
 flex-flow: wrap;
     justify-content: space-around;
     align-items: center;
@@ -115,6 +119,8 @@ flex-flow: wrap;
     color: #ffffff;
       
     padding: 2em;
+    -webkit-transition: all 2s;
+    transition: all 2s;
 }
 .n{
   background-color: rgba(255, 255, 255, 0.493);

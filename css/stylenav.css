@@ -55,6 +55,7 @@ align-content: center;
 }
 .menu__item:hover {
   background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0.5em;
 }
 
 .mostrar .menu__item {
@@ -78,6 +79,8 @@ align-content: center;
   position: relative;
   -webkit-transition: all 5s ease;
   transition: all 5s ease;
+  width: 100%;
+  justify-content: center;
 }
 .toggle-menu:before {
   content: "\2630";
